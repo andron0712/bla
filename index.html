@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню ресторану</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f8f8f8;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+        }
+
+        th {
+            background: #444;
+            color: white;
+            text-align: center;
+        }
+
+        .section {
+            background: #ddd;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .special {
+            background: #ffe08a;
+            font-weight: bold;
+        }
+
+        .allergy {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Меню ресторану</h1>
+
+<table>
+    <tr>
+        <th>Назва страви</th>
+        <th>Опис</th>
+        <th>Ціна</th>
+    </tr>
+
+    <!-- Сніданок -->
+    <tr>
+        <td class="section" colspan="3">Сніданок</td>
+    </tr>
+    <tr>
+        <td>Вівсяна каша</td>
+        <td>З фруктами та медом</td>
+        <td>85 грн</td>
+    </tr>
+    <tr class="special">
+        <td>Омлет фірмовий (акція)</td>
+        <td>З сиром, зеленню та шинкою</td>
+        <td>70 грн</td>
+    </tr>
+
+    <!-- Обід -->
+    <tr>
+        <td class="section" colspan="3">Обід</td>
+    </tr>
+    <tr>
+        <td>Борщ український</td>
+        <td>Подається зі сметаною та пампушками</td>
+        <td>120 грн</td>
+    </tr>
+    <tr>
+        <td>Котлета по-київськи</td>
+        <td>З картопляним пюре</td>
+        <td>150 грн</td>
+    </tr>
+
+    <!-- Вечеря -->
+    <tr>
+        <td class="section" colspan="3">Вечеря</td>
+    </tr>
+    <tr>
+        <td>Стейк яловичий</td>
+        <td>Середньої прожарки, овочі гриль</td>
+        <td>260 грн</td>
+    </tr>
+    <tr class="special">
+        <td>Паста карбонара (спецпропозиція)</td>
+        <td>Кремовий соус, бекон, пармезан</td>
+        <td>140 грн</td>
+    </tr>
+
+</table>
+
+<p class="allergy">
+    *Примітка: Страви можуть містити алергени — глютен, лактозу, горіхи.  
+    Вегетаріанські опції позначені зеленим листочком у меню ресторану.
+</p>
+
+</body>
+</html>
